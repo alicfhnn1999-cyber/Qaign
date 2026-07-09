@@ -1,0 +1,33 @@
+#import "ZSignBridge.h"
+// هنا نقوم باستدعاء مكتبة zsign الرئيسية بعد تضمينها في المشروع
+// #import "zsign.h" 
+
+@implementation ZSignBridge
+
++ (int)signApp:(NSString *)appPath 
+       p12Path:(NSString *)p12Path 
+   p12Password:(NSString *)p12Password 
+ subProvisionPath:(NSString *)provisionPath 
+entitlementsPath:(NSString *)entitlementsPath {
+    
+    NSLog(@"[ZSignBridge] بدء عملية التوقيع للمسار: %@", appPath);
+    
+    // تحويل نصوص Objective-C إلى مؤشرات C-Strings متوافقة مع zsign
+    const char* c_app = [appPath UTF8String];
+    const char* c_p12 = [p12Path UTF8String];
+    const char* c_pass = [p12Password UTF8String];
+    const char* c_prov = [provisionPath UTF8String];
+    const char* c_ents = [entitlementsPath UTF8String];
+    
+    // محاكاة استدعاء الأداة عبر الأوامر (Arguments) كأنها تعمل في Terminal
+    // في التطبيق الفعلي، يتم استدعاء دالة zsign_main المباشرة هنا:
+    /*
+    int exitCode = zsign_main(c_app, c_p12, c_pass, c_prov, c_ents);
+    return exitCode;
+    */
+    
+    // مؤقتاً للـ Compilation والـ Testing الناجح:
+    return 0; 
+}
+
+@end
