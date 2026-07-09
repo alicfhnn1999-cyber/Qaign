@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D65A435116848C4B245BE7C /* ESignCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6C3AA76286415389F03706 /* ESignCloneApp.swift */; };
+		603AF00F0FD948B989DA40A9 /* Compression.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E3006788D74FB3B5BEFEA9 /* Compression.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B6C3AA76286415389F03706 /* ESignCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESignCloneApp.swift; sourceTree = "<group>"; };
+		96E3006788D74FB3B5BEFEA9 /* Compression.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Compression.framework; path = System/Library/Frameworks/Compression.framework; sourceTree = SDKROOT; };
+		0155B30FFCD34C45AEDA03E3 /* ESignClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESignClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA877F2A203B448BAC138850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603AF00F0FD948B989DA40A9 /* Compression.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA51346715D44C6B3B6F883 = {
+			isa = PBXGroup;
+			children = (
+				D73670730A2549689A40F18A /* ESignClone */,
+				997176F09F0E4E2DBD3AC78D /* Frameworks */,
+				478954E05FE04A83817FA5E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D73670730A2549689A40F18A /* ESignClone */ = {
+			isa = PBXGroup;
+			children = (
+				4B6C3AA76286415389F03706 /* ESignCloneApp.swift */,
+			);
+			path = ESignClone;
+			sourceTree = "<group>";
+		};
+		997176F09F0E4E2DBD3AC78D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96E3006788D74FB3B5BEFEA9 /* Compression.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		478954E05FE04A83817FA5E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0155B30FFCD34C45AEDA03E3 /* ESignClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67DE2E2F11D641C998A9D3C1 /* ESignClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91536BF67FCA4D50A0D70F67 /* Build configuration list for PBXNativeTarget "ESignClone" */;
+			buildPhases = (
+				12808F2A4875495C82E12A09 /* Sources */,
+				FA877F2A203B448BAC138850 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESignClone;
+			productName = ESignClone;
+			productReference = 0155B30FFCD34C45AEDA03E3 /* ESignClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44B109CFE6A4F8D8C27C79F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					67DE2E2F11D641C998A9D3C1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2B888CF4387F4159B3A75B8F /* Build configuration list for PBXProject "ESignClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BA51346715D44C6B3B6F883;
+			productRefGroup = 478954E05FE04A83817FA5E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67DE2E2F11D641C998A9D3C1 /* ESignClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12808F2A4875495C82E12A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D65A435116848C4B245BE7C /* ESignCloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72E9E9D2AB9D47CAB7F31529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37852D6352E34276BE9BAEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF214E4D21704466921C4847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "eSign Clone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.esignclone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8D427CB624A43E697896A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "eSign Clone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.esignclone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B888CF4387F4159B3A75B8F /* Build configuration list for PBXProject "ESignClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E9E9D2AB9D47CAB7F31529 /* Debug */,
+				37852D6352E34276BE9BAEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91536BF67FCA4D50A0D70F67 /* Build configuration list for PBXNativeTarget "ESignClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF214E4D21704466921C4847 /* Debug */,
+				B8D427CB624A43E697896A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A44B109CFE6A4F8D8C27C79F /* Project object */;
+}
