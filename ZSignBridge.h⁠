@@ -1,0 +1,11 @@
+#import <Foundation/Foundation.h>
+
+@interface ZSignBridge : NSObject
+
++ (int)signApp:(NSString *)appPath 
+       p12Path:(NSString *)p12Path 
+   p12Password:(NSString *)p12Password 
+ subProvisionPath:(NSString *)provisionPath 
+entitlementsPath:(NSString *)entitlementsPath;
+
+@end
